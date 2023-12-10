@@ -1,0 +1,56 @@
+/* YouTube Theme CSS */
+
+body {
+    background-color: #f8f8f8;
+    color: #555; 
+    
+  }
+  
+  /* Links */
+  a {
+    color: #d62d20; 
+  }
+  
+  a:hover {
+    color: #ff0000;
+  }
+  
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+    color: #d62d20;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Header */
+ 
+
+  /* Video Player */
+ 
+  #results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+  }
+  
+  .result {
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box; 
+    justify-content: center;
+  }
+  
+  @media (max-width: 600px) {
+    .result {
+      width: 100%; 
+    }
+  }
+  
+  
+  button {
+    background-color: #d62d20;
+    border: none;
+    color: white;
+    padding: 10px 15px;  
+  }
